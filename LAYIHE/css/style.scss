@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+#Header{
+    padding: 40px 0;
+    background-color: #212529;
+    a{
+        font-size: 16px;
+        color: #fff;
+        font-weight: bold;
+        margin: 0 20px;
+        text-decoration: none;
+    }
+    .col-md-4{
+        span{
+           color: #fc0254;
+           font-size: 16px;
+           margin: 0 10px;
+           font-weight: bold;
+           text-decoration: none;
+        }
+    }
+}
+
+.phoneHeader{
+    display: none;
+    padding: 20px 0;
+    i{
+        color: #fff;
+        font-size: 20px;
+    }
+}
+
+#First{
+    background-color: #212529;
+    padding: 0 90px;
+    .col-md-5{
+       span{
+           color: #fc0254;
+           font-size: 70px;
+       }
+       h2{
+           color: #fff;
+           font-size: 70px;
+           margin: 0 25px;
+       }
+       p{
+           font-size: 16px;
+           margin: 0 50px;
+           color:#fff;
+       }
+    }
+    a{
+        color: #fff;
+        background-color: #fc0254;
+        border-radius: 15px;
+        margin: 5px 10px;
+    }
+}
+
+#Second{
+    h2{
+        color: #5d6781;
+        font-size: 60px;
+padding: 0 15px;
+    }
+    p{
+color: #181c29;
+padding: 0 15px;
+font-size: 16px;
+margin: 0 35px;
+    }
+    a{
+        background-color: #fc0254;
+        padding: 23px 20px;
+        font-size: 14px;
+        color: #fff;
+    }
+}
+
+.Third{
+    background-
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:576px) {
+#Header{
+    display: none;
+}
+.phoneHeader{
+    display: block;
+}
+}
+@media (min-width:576px) and (max-width:768px){
+
+}
